@@ -1,0 +1,15 @@
+G37-TS400: START
+G37-TS400-LOG2: TID = 1, task0 entering
+G37-TS400-LOG: Test[1]-[1]: seeing if not real time task raises EPERM.
+G37-TS400-LOG: Test[1]-[1]: result = 1.
+G37-TS400-LOG: Test[1]-[2]: Seeing if elevating a non real time task doesn't raise EPERM.
+G37-TS400-LOG: Test[1]-[2]: result = 1.
+G37-TS400-LOG: Test[1]-[3]: Seeing if error is raised when we call rt_tsk_get on not real-time.
+G37-TS400-LOG: Test[1]-[3]: result = 1.
+G37-TS400: FINISHED
+G37-TS400-LOG: Test 0: 0/0 PASSED. Expected = 0x0, result = 0x0
+G37-TS400-LOG: Test 1: 3/3 PASSED. Expected = 0x7, result = 0xE
+G37-TS400: 1/2 test function(s) COMPLETED.
+G37-TS400: 3/3 tests PASSED.
+G37-TS400: 0/3 tests FAILED.
+G37-TS400: END
